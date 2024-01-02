@@ -1,0 +1,135 @@
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css');
+.navbar-brand img{
+    height:120px;
+}
+
+.px-10{
+    padding: 0px 40px;
+}
+
+.search{
+    height : 40px;
+}
+
+.btn1{
+    margin : 0px 12px;
+    width : 120px;
+}
+
+.btn2{
+    margin : 0px 20px;
+    width : 90px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+.genre{
+    width : 100%;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
+.card_genre{
+    height : 220px;
+    width : 150px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card_genre:hover{
+    background: rgb(222, 209, 211);
+    color : white;
+}
+
+.icons{
+    height : 110px;
+    width : 110px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 80px !important;
+    padding : 12px;
+    border : 1px solid black;
+    
+}
+
+.widget{
+    font-size :35px !important;
+    font-weight: 700 !important;
+}
+
+.bookmark{
+    font-size :35px !important;
+    font-weight: 700 !important;
+}
+
+.event_card{
+    height: 400px;
+    width : 350px;
+    margin-left: 30px;
+    border-radius: 17px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.event_card:hover{
+    box-shadow: 0px 0px 10px red;
+}
+
+.event_card .header{
+    height: 65%;
+    background: rgb(124, 168, 168);
+    position: relative;
+}
+
+.category{
+    position: absolute;
+    background: rgb(92, 82, 82);
+    padding: 8px 15px;
+    border-radius: 13px;
+    right : 1px;
+    font-family: cursive;
+    font-size: 24px;
+    color : white;
+}
+
+.title{
+    position: absolute;
+    bottom : 0px;
+    left : 10px;
+    color : rgba(8, 7, 8, 0.692);
+    display: inline-block;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.stream{
+    padding : 3px;
+    color: rgb(12, 11, 11);
+}
+
+.price1{
+    display: inline-block;
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+.price{
+    height : 35px;
+    border-radius: 7px;
+    background: rgb(240, 214, 223);
+}
+
